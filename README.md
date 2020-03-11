@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+Just copy the sorrting file to your working directory and then import it in the file you are working on.
+Import using(for Python):
 
-You can use the [editor on GitHub](https://github.com/harsh793/lib_algorithms/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+from sorting import *
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/harsh793/lib_algorithms/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The file is under work but currently has three searching algorithms.
+1) Linear Search: The most basic searching algorithm with a time complexity of O(n).
+                  This function returns the index of the number to be found and should be used as follows:
+                  
+                  t = linear_search(array, key)
+                  
+                  where array is the list and key is the item to be found.
+                 
+2) Binary Search: Based on Divide and Conquer algorithm.
+                  This function returns the index of the number to be found and should be used as follows:
+                  
+                  t = binary_search(array, key)
+                  
+                  where array is the list and key is the item to be found.
