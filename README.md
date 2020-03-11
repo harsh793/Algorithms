@@ -1,4 +1,4 @@
-Just copy the searching file to your working directory and then import it in the file you are working on.
+Just copy the searching.py file to your working directory and then import it in the file you are working on.
 Import using(for Python):
 
     from sorting import *
