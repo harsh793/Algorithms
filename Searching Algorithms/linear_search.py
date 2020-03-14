@@ -17,4 +17,4 @@ def linear_search(array, key):
         
 array = list(map(int, input("Enter elements of array separated by space: ").split()))
 key = input("Enter element to find: ")
-linear_search(array, key)
+linear_search(array, key) 
